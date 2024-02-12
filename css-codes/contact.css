@@ -7,6 +7,10 @@
     padding: 0;
 }
 
+.navbar-nav li a{
+    color: black !important;
+}
+
 .navbar-nav li a:hover{
     color: aqua;
     transition: 0.4s ease-in-out;
