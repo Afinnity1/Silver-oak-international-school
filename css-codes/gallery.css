@@ -12,7 +12,7 @@
 }
 
 .navbar-nav li a:hover{
-    color: aqua;
+    color: aqua !important;
     transition: 0.4s ease-in-out;
 }
 
