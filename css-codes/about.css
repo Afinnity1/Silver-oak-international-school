@@ -1,0 +1,1106 @@
+.navbar a{
+    margin-left: 40px;
+}
+
+.navbar-nav{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.navbar-nav li a:hover{
+    color: aqua;
+    transition: 0.4s ease-in-out;
+}
+
+.AboutUs{
+    background: url("images/img111.jpg");
+    background-position:center;
+    background-size:cover;
+    justify-content: center;
+    text-align: center;
+    height: 15vh;
+    color: #fff;
+    padding-top:75px;
+}
+
+.AboutInfo{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.AboutInfo hr{
+    width: 70px;
+    margin-left: 47%;
+}
+
+.AboutInfo img{
+    width: 700px;
+    height: 350px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.first-info{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.second-info{
+    background: grey;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 60px;
+    padding-left: 325px;
+}
+
+.third-info{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.infos{
+    display: flex;
+    gap: 110px;
+    text-align: center;
+}
+
+.main-hr{
+    width: 100px;
+    color:aqua;
+    margin-top: 0;
+    margin-left: 40%;
+    border-bottom: 2px solid aqua;
+}
+
+ span{
+    color: #9370DB;
+}
+
+.infos p{
+    color:#5a5a5a;
+    font-style: italic;
+}
+
+.infos img{
+    width: 500px;
+    height: 350px;
+}
+
+.ownerInfo{
+    background: grey;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.ownerInfo img{
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ownerInfo hr{
+    width: 70px;
+    margin-left: 48%;
+}
+
+    .ending-details{
+        height: 50vh;
+        margin-top: 10px;
+        background: gainsboro;
+    }
+
+    .ending-detailsContent{
+        width: 75%;
+        margin: 0 auto;
+        display: flex;
+        gap: 80px;
+        padding: 70px;
+    }
+
+    .ending-detailsContent p{
+        color: #656765;
+    }
+
+    .ending-detailsContent li{
+        list-style: none;
+        margin-bottom: 20px;
+    }
+
+    .ending-detailsContent li a{
+        text-decoration: none;
+        color:#656765;
+    }
+
+    .ending-detailsContent li a:hover{
+        color:#fff;
+        transition: 0.2s ease-in-out;
+    }
+
+    .ending-detailsContent h4{
+        color: #fff;
+    }
+
+    .ending-detailsContent input{
+        border: none;
+        border-bottom: 1px solid #656765;
+        padding-bottom: 6px;
+        background: transparent;
+    }
+
+    .ending-detailsContent .submit-button{
+        margin-top: 10px;
+        border: none;
+        border: 1px solid aqua;
+        width: 200px;
+        height: 50px;
+        background: transparent;
+        color: #fff;
+    }
+
+    .ending-detailsContent .submit-button:hover{
+        border: none;
+        background: #9370DB;
+        color:#fff;
+        transition: 0.3s ease-in-out;
+      }
+
+    .accordion{
+        width: 100%;
+       }
+
+    .accordion-item{
+        background: none !important;
+        border: none !important;
+        color: #656765 !important;
+    }
+
+    .accordion-button{
+        background: none !important;
+        border: none !important;
+        color: #656765 !important;
+    }
+
+    .accordion-button:focus{
+        color: #fff !important;
+    }
+
+    .allrightsreserved{
+        background: #212529;
+        height: 7vh;
+        color: #E6E6E6;
+    }
+
+    .allrights-content{
+        width: 75%;
+        margin: 0 auto; 
+        padding-top:20px;
+    }
+
+    .allrights-content div{
+        display: flex;
+        gap: 4px;
+    } 
+
+    .allrights-content div span{
+        color: #E6E6E6 !important;
+    }
+
+    /* desktop screens resolution 1234 x 650 */
+@media screen and (width: 1234px) and (height: 650px) {
+    .AboutUs{
+        background: url("img11.jpg");
+        background-position:center;
+        background-size:cover;
+        justify-content: center;
+        text-align: center;
+        height: 19vh;
+        color: #fff;
+        padding-top:75px;
+    }
+
+    .AboutInfo{
+        width: 95%;
+    }
+
+    .first-info{
+        width: 90%;
+    }
+
+    .second-info{
+        width: 100%;
+        padding-left: 100px;
+    }
+
+    .third-info{
+        width: 90%;
+    }
+
+    .ending-details{
+        height: 60vh;
+    }
+
+    .ending-detailsContent{
+        width: 95%;
+        gap: 30px;
+    }
+}
+
+/* desktop large screens from 1280px */
+@media screen and (width: 1280px) and (height: 1024px) {
+    .AboutUs{
+        background: url("img11.jpg");
+        background-position:center;
+        background-size:cover;
+        justify-content: center;
+        text-align: center;
+        height: 12vh;
+        color: #fff;
+        padding-top:75px;
+    }
+
+    .AboutInfo{
+        width: 92%;
+    }
+
+    .first-info{
+        width: 83%;
+    }
+
+    .second-info{
+        width: 100%;
+        padding-left: 120px;
+    }
+
+    .third-info{
+        width: 83%;
+    }
+
+    .ending-details{
+        height: 50vh;
+    }
+
+    .ending-detailsContent{
+        width: 95%;
+        gap: 80px;
+    }
+}
+
+/* desktop screens resolution 1366 x 768 */
+@media screen and (width: 1366px) and (height: 768px) {
+    .AboutUs{
+        background: url("img11.jpg");
+        background-position:center;
+        background-size:cover;
+        justify-content: center;
+        text-align: center;
+        height: 17vh;
+        color: #fff;
+        padding-top:75px;
+    }
+
+    .AboutInfo{
+        width: 90%;
+    }
+
+    .first-info{
+        width: 78%;
+    }
+
+    .second-info{
+        width: 100%;
+        padding-left: 150px;
+    }
+
+    .third-info{
+        width: 78%;
+    }
+
+    .ending-details{
+        height: 60vh;
+    }
+
+    .ending-detailsContent{
+        width: 95%;
+        gap: 80px;
+    }
+}
+
+/* desktop screens resolution 1920 x 1080 */
+@media screen and (width: 1920px) and (height: 1080px) {
+    .navbar-brand{
+        font-size: 25px;
+    }
+
+    .nav-item{
+        font-size: 25px;
+    }
+
+    .main h3{
+        font-size: 40px;
+    }
+
+    .main .spann{
+        font-size: 23px;
+    }
+
+    .main p{
+        font-size: 23px;
+    }
+
+    .AboutUs h2{
+        font-size: 40px;
+        letter-spacing: 2px;
+        padding-top: 20px;
+    }
+
+    .AboutInfo{
+        width: 90%;
+    }
+
+    .AboutInfo h4{
+        font-size: 40px;
+    }
+
+    .AboutInfo img{
+        width: 850px;
+        height: 450px;
+    }
+
+    .AboutInfo p{
+        font-size: 23px;
+    }
+
+    .first-info{
+        width: 78%;
+    }
+
+    .second-info{
+        padding-left: 150px;
+    }
+
+    .third-info{
+        width: 78%;
+    }
+
+    .ending-details{
+        height: 40vh;
+    }
+
+    .ending-detailsContent{
+        width: 97%;
+        gap: 180px ;	
+    }
+
+    .ending-detailsContent h1{
+        font-size: 53px;
+    }
+
+    .ending-detailsContent h4{
+        font-size: 33px;
+    }
+
+    .ending-detailsContent p{
+        font-size: 24px;
+    }
+
+    .ending-detailsContent .submit-button{
+        width: 300px;
+        height: 70px;
+        font-size: 25px;
+    }
+
+    .ending-detailsContent input{
+        width: 300px;
+        font-size: 25px;
+    }
+}
+
+/* desktop screens resolution 1440 x 900 */
+@media screen and (width: 1440px) and (height: 900px) {
+    .navbar-brand{
+        font-size: 20px;
+    }
+
+    .nav-item{
+        font-size: 20px;
+    }
+
+    .AboutInfo{
+        width: 90%;
+    }
+
+    .first-info{
+        width: 78%;
+    }
+
+    .second-info{
+        width: 100%;
+        padding-left: 150px;
+    }
+
+    .third-info{
+        width: 78%;
+    }
+
+    .ending-details{
+        height: 40vh;
+    }
+
+    .ending-detailsContent{
+        width: 95%;
+        gap: 80px;
+    }
+}
+
+/* desktop screens resolution 1024 x 768 */
+    @media screen and (width: 1024px) and (height: 768px) {
+        .AboutInfo{
+            width: 80%;
+        }
+    
+        .first-info{
+            width: 80%;
+        }
+
+        .first-info img{
+            width: 300px;
+        }
+    
+        .second-info{
+            width: 100%;
+            padding-left: 100px;
+        }
+
+        .second-info img{
+            width: 300px;
+        }
+    
+        .third-info{
+            width: 80%;
+        }
+
+        .third-info img{
+            width: 300px;
+        }
+
+        .infos{
+            gap: 70px;
+        }
+    
+        .ending-details{
+            height: 60vh;
+        }
+    
+        .ending-detailsContent{
+            width: 100%;
+            gap: 30px;
+        }
+    }
+
+    /* mobile screens resolution(iphoneXR) 414 x 896 */
+@media screen and (width: 414px) and (height: 896px) {
+    .navbar-toggler{
+        position: relative;
+        left: 80%;
+        bottom: 30px;
+    }
+    
+    .AboutUs{
+        height: 20vh;
+        padding-top: 105px;
+    }
+
+    .AboutInfo hr{
+        margin-left: 39%;
+    }
+
+    .AboutInfo{
+        width: 80%;
+    }
+
+    .AboutInfo img{
+        width: 280px;
+        height: 200px;
+    }
+
+    .infos{
+        display: flex;
+		flex-direction: column;
+		align-items: center;
+        gap: 30px;
+    }
+
+    .infos img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .first-info{
+        width: 80%;
+    }
+
+    .second-info{
+        width: 100%;
+        padding-left: 6px;
+    }
+
+    .third-info{
+        width: 80%;
+    }
+
+    .main-hr{
+        margin-left: 35%;
+    }
+
+    .ownerInfo hr{
+        margin-left: 42%;
+    }
+
+    .ending-details{
+        height: 150vh;
+    }
+
+    .ending-detailsContent{
+        display: flex;
+		flex-direction: column;
+		align-items: center;
+    }
+
+    .accordion{
+        font-size: 12px !important;
+    }
+
+    .accordion-button{
+        font-size: 15px !important;
+    }
+
+    .allrights-content{
+        font-size: 10px;
+    }
+
+    .allrights-content span{
+        font-size: 13px;
+    }
+}
+
+/* mobile screens resolution(iphone12pro) 390 x 844 */
+@media screen and (width: 390px) and (height: 844px) {
+    .navbar-toggler{
+        position: relative;
+        left: 80%;
+        bottom: 30px;
+    }
+    
+    .AboutUs{
+        height: 20vh;
+       padding-top: 105px;
+    }
+
+    .AboutInfo hr{
+        margin-left: 39%;
+    }
+
+    .AboutInfo{
+        width: 80%;
+    }
+
+    .AboutInfo img{
+        width: 280px;
+        height: 200px;
+    }
+
+    .infos{
+        display: flex;
+		flex-direction: column;
+		align-items: center;
+        gap: 30px;
+    }
+
+    .infos img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .first-info{
+        width: 80%;
+    }
+
+    .second-info{
+        width: 100%;
+        padding-left: 6px;
+    }
+
+    .third-info{
+        width: 80%;
+    }
+
+    .main-hr{
+        margin-left: 35%;
+    }
+
+    .ownerInfo hr{
+        margin-left: 42%;
+    }
+
+    .ending-details{
+        height: 160vh;
+    }
+
+    .ending-detailsContent{
+        display: flex;
+		flex-direction: column;
+		align-items: center;
+    }
+
+    .accordion{
+        font-size: 11px !important;
+    }
+
+    .accordion-button{
+        font-size: 14px !important;
+    }
+
+    .allrights-content{
+        font-size: 10px;
+    }
+
+    .allrights-content span{
+        font-size: 13px;
+    }
+}
+
+/* mobile screens resolution(iphone14promax) 430 x 932 */
+@media screen and (width: 430px) and (height: 932px) {
+    .navbar-toggler{
+        position: relative;
+        left: 80%;
+        bottom: 30px;
+    }
+    
+    .AboutUs{
+        height: 20vh;
+       padding-top: 105px;
+    }
+
+    .AboutInfo hr{
+        margin-left: 39%;
+    }
+
+    .AboutInfo{
+        width: 80%;
+    }
+
+    .AboutInfo img{
+        width: 280px;
+        height: 200px;
+    }
+
+    .infos{
+        display: flex;
+		flex-direction: column;
+		align-items: center;
+        gap: 30px;
+    }
+
+    .infos img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .first-info{
+        width: 80%;
+    }
+
+    .second-info{
+        width: 100%;
+        padding-left: 6px;
+    }
+
+    .third-info{
+        width: 80%;
+    }
+
+    .main-hr{
+        margin-left: 35%;
+    }
+
+    .ownerInfo hr{
+        margin-left: 42%;
+    }
+
+    .ending-details{
+        height: 140vh;
+    }
+
+    .ending-detailsContent{
+        display: flex;
+		flex-direction: column;
+		align-items: center;
+    }
+
+    .accordion{
+        font-size: 12px !important;
+    }
+
+    .accordion-button{
+        font-size: 15px !important;
+    }
+
+    .allrights-content{
+        font-size: 12px;
+    }
+
+    .allrights-content span{
+        font-size: 14px;
+    }
+}
+
+/* mobile screens resolution(pixel7) 412 x 915 */
+@media screen and (width: 412px) and (max-height: 915px) {
+    .navbar-toggler{
+        position: relative;
+        left: 80%;
+        bottom: 30px;
+    }
+    
+    .AboutUs{
+        height: 20vh;
+       padding-top: 105px;
+    }
+
+    .AboutInfo hr{
+        margin-left: 39%;
+    }
+
+    .AboutInfo{
+        width: 80%;
+    }
+
+    .AboutInfo img{
+        width: 280px;
+        height: 200px;
+    }
+
+    .infos{
+        display: flex;
+		flex-direction: column;
+		align-items: center;
+        gap: 30px;
+    }
+
+    .infos img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .first-info{
+        width: 80%;
+    }
+
+    .second-info{
+        width: 100%;
+        padding-left: 6px;
+    }
+
+    .third-info{
+        width: 80%;
+    }
+
+    .main-hr{
+        margin-left: 35%;
+    }
+
+    .ownerInfo hr{
+        margin-left: 42%;
+    }
+
+    .ending-details{
+        height: 140vh;
+    }
+
+    .ending-detailsContent{
+        display: flex;
+		flex-direction: column;
+		align-items: center;
+    }
+
+    .accordion{
+        font-size: 11px !important;
+    }
+
+    .accordion-button{
+        font-size: 15px !important;
+    }
+
+    .allrights-content{
+        font-size: 12px;
+    }
+
+    .allrights-content span{
+        font-size: 14px;
+    }
+}
+
+/* mobile screens resolution(samsung galaxy s8+) 360 x 740 */
+@media screen and (width: 360px) and (height: 740px) {
+    .navbar-toggler{
+        position: relative;
+        left: 80%;
+        bottom: 30px;
+    }
+    
+    .AboutUs{
+        height: 22vh;
+       padding-top: 105px;
+    }
+
+    .AboutInfo hr{
+        margin-left: 39%;
+    }
+
+    .AboutInfo{
+        width: 80%;
+    }
+
+    .AboutInfo img{
+        width: 280px;
+        height: 200px;
+    }
+
+    .infos{
+        display: flex;
+		flex-direction: column;
+		align-items: center;
+        gap: 30px;
+    }
+
+    .infos img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .first-info{
+        width: 80%;
+    }
+
+    .second-info{
+        width: 100%;
+        padding-left: 6px;
+    }
+
+    .third-info{
+        width: 80%;
+    }
+
+    .main-hr{
+        margin-left: 35%;
+    }
+
+    .ownerInfo hr{
+        margin-left: 42%;
+    }
+
+    .ending-details{
+        height: 190vh;
+    }
+
+    .ending-detailsContent{
+        display: flex;
+		flex-direction: column;
+		align-items: center;
+    }
+
+    .accordion{
+        font-size: 11px !important;
+    }
+
+    .accordion-button{
+        font-size: 14px !important;
+    }
+
+    .allrights-content{
+        font-size: 10px;
+    }
+
+    .allrights-content span{
+        font-size: 13px;
+    }
+}
+
+/* mobile screens resolution(iphone6/7/8) 375 x 667 */
+@media screen and (width: 375px) and (height: 667px) {
+    .navbar-toggler{
+        position: relative;
+        left: 80%;
+        bottom: 30px;
+    }
+    
+    .AboutUs{
+        height: 26vh;
+       padding-top: 105px;
+    }
+
+    .AboutInfo hr{
+        margin-left: 39%;
+    }
+
+    .AboutInfo{
+        width: 80%;
+    }
+
+    .AboutInfo img{
+        width: 280px;
+        height: 200px;
+    }
+
+    .infos{
+        display: flex;
+		flex-direction: column;
+		align-items: center;
+        gap: 30px;
+    }
+
+    .infos img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .first-info{
+        width: 80%;
+    }
+
+    .second-info{
+        width: 100%;
+        padding-left: 6px;
+    }
+
+    .third-info{
+        width: 80%;
+    }
+
+    .main-hr{
+        margin-left: 35%;
+    }
+
+    .ownerInfo hr{
+        margin-left: 42%;
+    }
+
+    .ending-details{
+        height: 206vh;
+    }
+
+    .ending-detailsContent{
+        display: flex;
+		flex-direction: column;
+		align-items: center;
+    }
+
+    .accordion{
+        font-size: 11px !important;
+    }
+
+    .accordion-button{
+        font-size: 14px !important;
+    }
+
+    .allrights-content{
+        font-size: 10px;
+    }
+
+    .allrights-content span{
+        font-size: 13px;
+    }
+}
+
+/* mobile screens resolution(iphone6/7/8 +) 414 x 736 */
+@media screen and (width: 414px) and (height: 736px) {
+    .navbar-toggler{
+        position: relative;
+        left: 80%;
+        bottom: 30px;
+    }
+    
+    .AboutUs{
+        height: 24vh;
+       padding-top: 105px;
+    }
+
+    .AboutInfo hr{
+        margin-left: 39%;
+    }
+
+    .AboutInfo{
+        width: 80%;
+    }
+
+    .AboutInfo img{
+        width: 280px;
+        height: 200px;
+    }
+
+    .infos{
+        display: flex;
+		flex-direction: column;
+		align-items: center;
+        gap: 30px;
+    }
+
+    .infos img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .first-info{
+        width: 80%;
+    }
+
+    .second-info{
+        width: 100%;
+        padding-left: 6px;
+    }
+
+    .third-info{
+        width: 80%;
+    }
+
+    .main-hr{
+        margin-left: 35%;
+    }
+
+    .ownerInfo hr{
+        margin-left: 42%;
+    }
+
+    .ending-details{
+        height: 180vh;
+    }
+
+    .ending-detailsContent{
+        display: flex;
+		flex-direction: column;
+		align-items: center;
+    }
+
+    .accordion{
+        font-size: 11px !important;
+    }
+
+    .accordion-button{
+        font-size: 14px !important;
+    }
+
+    .allrights-content{
+        font-size: 10px;
+    }
+
+    .allrights-content span{
+        font-size: 13px;
+    }
+}

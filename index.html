@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Silver Oak School</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css-codes/index.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+		
+		<nav class="navbar navbar-expand-lg bg-light fixed-top" id="navbar-example">	
+			<a class="navbar-brand" href="#">Logo</a>
+			<div class="container-fluid">
+                <!-- Creates a toggler button action so that when the webpage is reduced to a certain width the listed items are stored in it in a dropdown like format -->
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ">
+                    
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#" id="navbar-home">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" id="navbar-about">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" id="navbar-gallery">GALLERY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" id="navbar-contact">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+			</div>	
+		</nav>
+
+	</div>
+
+    <div class="second">
+        <div class="sch-slider">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="css-codes/images/ian-schneider-TamMbr4okv4-unsplash.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="css-codes/images/image3.jpeg" class="d-block w-100" alt="..." style=" width: 100% !important; position: relative; top: 40px;">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="css-codes/images/deleece-cook-zzjLGF_6dx4-unsplash.jpg" class="d-block w-100" alt="...">
+                        </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                </button>
+            </div>	
+        </div>
+
+        <div class="enroll">
+            <div>
+                <h2>How to Enroll Your Child to a Class?</h2>
+            </div>
+            <div>
+                <a href="#" id="enroll-me"><button>LEARN MORE</button></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+
+        <div class="welcome">
+            <div class="welcome-heading">
+                <h2>Welcome to Silver Oak International</h2>
+                <p>Daycare, preschool, kindergarten and primary</p>
+            </div>
+
+            <div class="welc-content">
+                <div>
+                    <img src="css-codes/images/welc1.jpg" alt="...">
+                    <h4>Work Culture</h4>
+                    <p>Welcome to Silver Oak<br> where a culture of excellence <br> thrives through teamwork, passion, <br> and growth.</p>
+                </div>
+                <div>
+                    <img src="css-codes/images/welc2.jpg" alt="...">
+                    <h4>Daycare</h4>
+                    <p>Welcome to Silver Oak <br> Daycare, Where little hearts <br> blossom, and smiles fill each day!</p>
+                </div>
+                <div>
+                    <img src="css-codes/images/welc3.jpg" alt="...">
+                    <h4>Curriculum</h4>
+                    <p>Silver Oak Embraces <br> a global journey with our <br> 24/7 worldwide curriculum, fostering curiosity <br> and excellence.</p>
+                </div>
+                <div>
+                    <img src="css-codes/images/welc4.jpg" alt="...">
+                    <h4>Stay Notified</h4>
+                    <p>Stay updated on <br> school news and events <br> with our instant notifications.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="mission">
+				<button type="button" onclick="rechangeContent()">OVERVIEW</button>
+				<button type="button" onclick="changeContent()">OUR MISSION</button>
+			
+            <div class="content-div">   
+                <div class="mission-content">
+                        <h2>Our philosophy is learning through <br> play as we offer a stimulating <br> environment for children.</h2>
+                        
+                            <h4 id="headerr">Full Day Sessions</h4>
+                            <p id="textt">Discover Silver Oak's engaging full-day sessions, <br> fostering growth and learning opportunities for all.</p>
+                        
+                        
+                            <h4 id="headerrT">Varied classes</h4>
+                            <p id="texttT">Silver Oak offers diverse classes, catering to <br> individual interests and fostering well-rounded education.</p>
+                        
+                </div>
+
+                <div>
+                    <img src="css-codes/images/image11.jpeg" alt="....">
+                </div>
+            </div> 
+		</div>
+
+        <div class="sch-stats">
+            <div class="content">
+                <div class="circle">
+                    <h2 class="counter">100</h2>
+                    <h5>Pupils Assimilation</h5>
+                </div>
+                <div class="circle">
+                    <h2 class="counter">100</h2>
+                    <h5>Teaching Culture</h5>
+                </div>
+                <div class="circle">
+                    <h2 class="counter">100</h2>
+                    <h5>Satisfied Parents</h5>
+                </div>
+                <div class="circle">
+                    <h2 class="counter">100</h2>
+                    <h5>Daycare Services</h5>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="classes">
+            <div class="classes-heading">
+                <h2>Our Classes</h2>
+                <p>Our school programme has various dedicated classes</p>
+            </div>
+
+            <h3>We provided four classes with nine to <br> twenty children each aged twelve <br> month to lorem ipson years of age.</h3>
+
+            <div class="classes-val">
+                <div>
+                    <h4>Creche</h4>
+                    <p>Class size: 9</p>
+                    <img src="css-codes/images/class1.jpg" alt="" style="height:141px;" class="classimg">
+                </div>
+                <div>
+                    <h4>Creche</h4>
+                    <p>Class size: 9</p>
+                    <img src="css-codes/images/class2.jpg" alt="" style="height:141px;" class="classimg">
+                </div>
+            </div>
+
+            <div class="classes-val">
+                <div>
+                    <h4>Creche</h4>
+                    <p>Class size: 9</p>
+                    <img src="css-codes/images/class3.jpg" alt="" style="height:141px;" class="classimg">
+                </div>
+                <div>
+                    <h4>Creche</h4>
+                    <p>Class size: 9</p>
+                    <img src="css-codes/images/class4.jpg" alt="" style="height:141px;" class="classimg">
+                </div>
+            </div>
+        </div> -->
+
+        <div class="gallery-section">
+            <div class="gallerySnippet">
+                <div><img src="css-codes/images/img1.jpg" alt="..."></div>
+                <div><img src="css-codes/images/img2.jpg" alt="..."></div>
+                <div><img src="css-codes/images/img15.jpg" alt="..."></div>
+                <div><img src="css-codes/images/img2.jpg" alt="..." class="dud-img"></div>
+                <div><img src="css-codes/images/img1.jpg" alt="..." class="dud-img"></div>
+            </div>
+            <div class="gallery">
+                <div>
+                    <p>See Our Amazing Kids Photo Gallery</p>
+                </div>
+                <div>
+                    <a href="#" id="gallery-button"><button>VIEW GALLERY</button></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="comments">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+				<div class="carousel-inner">
+						<div class="carousel-item active">
+							<p>Silver Oak School is a great place for my son to start his <br> schooling experience.
+                                 It's welcoming and safe and my son <br> loves being there
+                            </p>
+							<hr class="main-hr">
+							<h6>MR. Afinnity</h6>
+						</div>
+						<div class="carousel-item">
+							<p>This letter is to recognize you and your staff for doing an excellent <br> job teaching my son. His skill
+                                level is significantly better <br> since attending Silver Oak.  
+                            </p>
+							<hr class="main-hr">
+							<h6>MR. Joeseph</h6>
+						</div>
+						<div class="carousel-item">
+							<p>Silver Oak School is an Amazing place for growth and <br> schooling experience. It's welcoming and i highly recommend. <br>I love being there</p>
+							<hr class="main-hr">
+							<h6>MRS. Anita</h6>
+						</div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+				</button>
+			</div>	
+        </div>
+
+        <div class="get-intouch">
+                <p>GET IN TOUCH WITH US</p>
+        </div>
+
+        <div class="contact">
+            <div class="contact-heading">
+                <h2>Contact Us</h2>
+                <p>Our postal adress and contact details</p>
+            </div>
+
+            <div class="details">
+
+                <div>
+                    <img src="css-codes/images/postalAdress (1).jpg" alt="....">
+                    <h4>Postal Address</h4>
+                    <p> 
+                        11, olajubu street, Akute-odo beside <br> Lagos water works office. Akute, <br> Ogun state
+                    </p>
+                </div>
+                <div>
+                    <img src="css-codes/images/phone.jpg" alt="...">
+                    <h4>Phone & E-mail</h4>
+                    <p>
+                        Phone: 08086174440 <br>
+                        silveroakint465@gmail.com
+                    </p>
+                </div>
+                <div>
+                    <img src="css-codes/images/businessHours.jpg" alt="...">
+                    <h4>Business Hours</h4>
+                    <p>Monday - Friday
+                       <br> 6:00 am - 6:00 pm <br>
+                        Weekend Closed
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="input-details">
+                <div>
+                    <p><input type="text" placeholder="Your Name*"></p>
+                    <p><input type="email" name="" id="" placeholder="Your E-mail*"></p>
+                    <p><input type="text" placeholder="Subject"></p>
+                </div>
+                <div>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message*"></textarea>
+                </div>
+            </div>
+
+            <a href="#"><button>SEND MESSAGE</button></a>
+
+        </div>
+
+    </div>
+
+    <div class="allrightsreserved">
+        <div class="allrights-content">
+          <div>
+            <span class="material-icons">copyright</span>
+            <p>2024 Silver Oak International School. All Rights Reserved.</p>
+          </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="js-codes/index.js"></script>
+
+
+</body>
+</html>
