@@ -981,9 +981,7 @@
     }
 }
 
-
 /* mobile screens resolution(iphoneXR) 414 x 896 */
-@media screen and (width: 414px) and (height: 896px) {
     .navbar-toggler{
         position: relative;
         left: 80%;
@@ -1156,7 +1154,6 @@
 }
 
 /* mobile screens resolution(iphone12pro) 390 x 844 */
-@media screen and (width: 390px) and (height: 844px) {
     .navbar-toggler{
         position: relative;
         left: 80%;
@@ -1282,6 +1279,13 @@
 
     .comments .carousel-inner{
         padding-left: 0%;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .main-hr{
+        width: 100px;
+        margin-left: 40%;
     }
 
     .get-intouch{
@@ -1333,7 +1337,7 @@
 }
 
 /* mobile screens resolution(iphone14promax) 430 x 932 */
-@media screen and (width: 430px) and (height: 932px) {
+
     .navbar-toggler{
         position: relative;
         left: 80%;
@@ -1506,7 +1510,7 @@
 }
 
 /* mobile screens resolution(pixel7) 412 x 915 */
-@media screen and (width: 412px) and (max-height: 915px) {
+
     .navbar-toggler{
         position: relative;
         left: 80%;
@@ -1679,7 +1683,7 @@
 }
 
 /* mobile screens resolution(samsung galaxy s8+) 360 x 740 */
-@media screen and (width: 360px) and (height: 740px) {
+
     .navbar-toggler{
         position: relative;
         left: 80%;
@@ -1857,7 +1861,7 @@
 }
 
 /* mobile screens resolution(iphone6/7/8) 375 x 667 */
-@media screen and (width: 375px) and (height: 667px) {
+
     .navbar-toggler{
         position: relative;
         left: 80%;
@@ -2035,7 +2039,7 @@
 }
 
 /* mobile screens resolution(iphone6/7/8 +) 414 x 736 */
-@media screen and (width: 414px) and (height: 736px) {
+
     .navbar-toggler{
         position: relative;
         left: 80%;
