@@ -2213,3 +2213,176 @@
         font-size: 13px;
     }
 }
+
+/* mobile screens resolution(itelA23) 480 x 854 */
+@media screen and (max-width: 480px) and (max-height: 854px) {
+    .navbar-toggler{
+        position: relative;
+        left: 80%;
+        bottom: 30px;
+    }
+
+    .enroll{
+        height: 20vh;
+        display: flex;
+		flex-direction: column;
+		align-items: center;
+        font-size: 10px !important;
+        padding-bottom: 40px;
+    }
+
+    .enroll h2{
+        font-size: 22px;
+    }
+
+    .enroll button{
+        width: 240px;
+    }
+
+    .welcome .welc-content{
+        display: flex;
+        gap: 20px;
+		flex-direction: column;
+		align-items: center;
+    }
+
+    .welcome .welc-content img{
+        width: 136px;
+        height: 16vh;
+        border-radius: 48%;
+    }
+
+    .mission button{
+        width: 170px;
+    }
+
+    .mission-content h2{
+        font-size: 25px;
+    }
+
+    .mission .content-div{
+        display: flex;
+		flex-direction: column;
+		align-items: center;
+        gap: 15px;
+    }
+   
+    .mission img{
+        width: 330px; 
+    }
+
+    .sch-stats .content{
+        list-style-type: none;
+        display: grid;
+        place-items: center;
+        grid-auto-flow: column;
+        gap: 1rem;
+        overflow: auto;
+        scroll-snap-type: x mandatory;
+    }
+
+    .sch-stats .content .circle h5{
+        font-size: 15px !important;
+    }
+
+    .sch-stats .content .circle {
+        width: 170px;
+    }
+
+    .classes-val{
+        display: flex;
+		flex-direction: column;
+		align-items: center;
+    }
+
+    .classes-val img{
+       width: 200px;
+       height: 15.3vh !important;
+    }
+
+    .gallery-section .gallerySnippet{
+        display: flex;
+		flex-direction: column;
+		align-items: center;
+    }
+
+    .gallery-section .gallerySnippet .dud-img{
+        display: none;
+    }
+
+    .gallery-section .gallerySnippet img{
+        width: 100%;
+    }
+
+    .gallery-section .gallery{
+        height: 20vh;
+        display: flex;
+		flex-direction: column;
+		align-items: center;
+        font-size: 10px !important;
+        padding-bottom: 30px;
+    }
+
+    .gallery-section .gallery p{
+        font-size: 24px;
+    }
+
+     .gallery-section .gallery button{
+        width: 240px;
+    }
+
+    .comments p{
+        font-size: 16px;
+    }
+
+    .comments .carousel-inner{
+        padding-left: 0%;
+    }
+
+    .get-intouch{
+        height: 5vh;
+        padding-bottom: 80px;
+    }
+
+    .contact .contact-heading h2{
+       font-size: 35px !important;
+    }   
+
+    .contact .details{
+        display: flex;
+		flex-direction: column;
+		align-items: center;
+        gap: 35px;
+    }
+
+    .contact .input-details{
+        display: flex;
+		flex-direction: column;
+		align-items: center;
+        gap: 10px;
+    }
+
+    .contact .input-details input{
+        width:260px;
+        height: 3.5vh;
+    }
+
+    .contact .input-details textarea{
+        height:64%;
+        width: 102%;
+        margin-bottom: 65px;
+    }
+
+    .contact button{
+        left: 0%;
+        width: 294px;
+    }
+
+    .allrights-content{
+        font-size: 11px;
+    }
+
+    .allrights-content span{
+        font-size: 14px;
+    }
+}
